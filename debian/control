@@ -1,0 +1,17 @@
+Source: contract-archive
+Section: misc
+Priority: optional
+Maintainer: dirli <litandrej85@gmail.com>
+Build-Depends: debhelper (>= 11),
+               meson
+Standards-Version: 4.1.3
+Homepage: https://github.com/Dirli/contract-archive
+
+Package: contract-archive
+Architecture: any
+Depends: file-roller, ${shlibs:Depends}, ${misc:Depends}
+Recommends: contractor
+Enhances: contractor
+Description: Archives support for Contractor
+ This package allows you to extract and compress the archive over Contractor
+
